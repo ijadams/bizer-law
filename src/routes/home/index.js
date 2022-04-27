@@ -87,13 +87,13 @@ const Home = () => {
 			<div className={style.services}>
 				<div>
 					<Row gutter={[16, 16]}>
-						<Col span={12}>
+						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<img src="https://res.cloudinary.com/ia-interactive/image/upload/v1651080236/noun-civil-rights-4339810_h7f7gv.png"/>
 							<h3>CIVIL RIGHTS</h3>
 							<hr></hr>
 							<p>Bizer & DeReus is one of a small number of Louisiana law firms that concentrate on enforcing the rights of individuals with disabilities under the Americans with Disabilities Act of 1990 (ADA), the Rehabilitation Act of 1973, and the Fair Housing Act. Bizer & DeReus is committed to ensuring that individuals with disabilities receive equal access to public and private facilities and services.</p>
 						</Col>
-						<Col span={12}>
+						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<img src="https://res.cloudinary.com/ia-interactive/image/upload/v1651080236/noun-hurricane-3637508_vem12e.png"/>
 							<h3>HURRICANE CLAIMS</h3>
 							<hr></hr>
