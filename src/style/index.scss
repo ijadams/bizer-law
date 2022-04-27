@@ -40,6 +40,15 @@ a {
 	position: relative;
 }
 
+.ant-btn-primary {
+	border-color: #7f7bfb !important;
+	background: #7f7bfb !important;
+	&:hover {
+		border-color: #9592fb !important;
+		background: #9592fb !important;
+	}
+}
+
 @keyframes placeHolderShimmer{
   0% {
       background-position: -468px 0;

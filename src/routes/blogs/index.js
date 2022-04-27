@@ -27,7 +27,7 @@ function getBlogsListing(data, isLoading) {
 	if (data && data.data) {
 		const { data: blogs } = data;
 		return (
-			<>
+			<div style="padding-top: 100px;">
 				{blogs.edges.map(blog => (
 				<Link href={`/blog/${blog.id}`}>
 					<article>
@@ -43,7 +43,7 @@ function getBlogsListing(data, isLoading) {
 					</article>
 				</Link>
 			))}
-			</>
+			</div>
 		);
 	}
 }

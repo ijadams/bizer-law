@@ -1,0 +1,17 @@
+footer {
+	position: relative;
+	height: 30px;
+	width: 100%;
+	font-size: 12px;
+	background: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	a {
+		color: #7f7bfb;
+	}
+	p {
+		margin: 0 auto;
+	}
+}

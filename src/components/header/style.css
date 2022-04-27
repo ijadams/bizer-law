@@ -1,4 +1,9 @@
 .header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
 	height: 100px;
 	background: black;
 	padding: 0 1rem;
@@ -40,13 +45,13 @@
 .header nav a:hover,
 .header nav a:active,
 .header nav a.active {
-	color: #FFC107;
+	color: #7f7bfb;
 }
 
 .header nav a:after {
 	content: '';
 	width: 0%;
-	border-bottom: 3px solid #FFC107;
+	border-bottom: 3px solid #7f7bfb;
 	position: absolute;
 	bottom: -12px;
 	left: 0;
@@ -56,7 +61,7 @@
 }
 
 .header nav a:hover:after, .header nav a.active:after {
-	width: 70%
+	width: 100%
 }
 
 @media all and (max-width: 728px) {
