@@ -9,8 +9,7 @@ export const garret = {
 	message: 'Garret DeReus - Partner',
 	description: 'Garret is a devoted civil rights advocate who has been promoting fairness and civil rights since 2011. Currently, Garret is a partner at Bizer & DeReus and is licensed to practice law in Louisiana and Missouri. As a constitutional lawyer and experienced federal practitioner, he has handled more than 200 civil rights cases. Mr. DeReus has represented clients in thirteen federal district courts, three federal courts of appeal, Louisiana courts, and even the United States Supreme Court.\n' +
 		'Garret’s passion for civil rights started when he was in law school at Tulane University, when he worked at the Louisiana Fair Housing Action Center (formerly the Greater New Orleans Fair Housing Action Center), first as an intern 2011 and later as a Legal Fellow. After graduating from Tulane Law, Garret joined Bizer & DeReus, where he has been advocating for fairness and civil rights ever since.\n' +
-		'Mr. DeReus has obtained numerous favorable rulings against some of the nation’s largest corporate entities as well as against governmental entities. Many of the rulings obtained by Mr. DeReus have helped developed unclear areas of the Americans with Disabilities Act and have strengthened the rights of persons with disabilities. In addition to civil rights cases, Mr. DeReus also has considerable experience handling personal injury cases.\n' +
-		'In his free time, Mr. DeReus enjoys spending time with his wife and his dogs, kayaking, and watching birds.\n' +
+		'In his free time, Mr. DeReus enjoys spending time with his wife and his dogs, kayaking, and watching birds. \n' +
 		'Garret can be reached by email at: gdereus@bizerlaw.com',
 };
 
