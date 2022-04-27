@@ -1,8 +1,9 @@
 import { h } from 'preact';
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect } from 'preact/hooks';
 import style from './style';
 import 'antd/dist/antd.css';
-import { Row, Col, Button, Modal } from 'antd';
+import { Row, Col, Button, Avatar, notification } from 'antd';
+import { andy, garret, emily } from './index.const';
 
 const Home = () => {
 
@@ -12,20 +13,17 @@ const Home = () => {
 	 * This redirection takes it to the right place(/admin).
 	 */
 
-	const [isModalVisible, setIsModalVisible] = useState(false);
-
-	const showModal = () => {
-		setIsModalVisible(true);
+	const openNotificationAndy = () => {
+		notification.open(andy);
 	};
 
-	const handleOk = () => {
-		setIsModalVisible(false);
+	const openNotificationGarret = () => {
+		notification.open(garret);
 	};
 
-	const handleCancel = () => {
-		setIsModalVisible(false);
+	const openNotificationEmily = () => {
+		notification.open(emily);
 	};
-
 
 	useEffect(() => {
 		if (window !== undefined && window.location.href.includes('#invite_token')) {
@@ -94,21 +92,42 @@ const Home = () => {
 			</div>
 			<div className={style.attorneys}>
 				<div>
-					<h1>ATTORNEYS</h1>
+					<h1>our attorneys</h1>
+					<hr></hr>
 					<Row gutter={[16, 16]}>
-						<Col span={8}> ANDREW D. BIZER</Col>
-						<Col span={8}> GARRET S. DEREUS</Col>
-						<Col span={8}> EMILY WESTERMEIER</Col>
+						<Col span={8}>
+							<a href="javascript:void;" onClick={openNotificationAndy}>
+								<Avatar
+									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
+									src="https://res.cloudinary.com/ia-interactive/image/upload/v1651086619/andy_pgyvh2.jpg"
+								/>
+								<h3>ANDREW D. BIZER</h3>
+							</a>
+						</Col>
+						<Col span={8}>
+							<a href="javascript:void;" onClick={openNotificationGarret}>
+								<Avatar
+									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
+									src="https://res.cloudinary.com/ia-interactive/image/upload/v1651086618/garret_ogd1og.jpg"
+								/>
+								<h3>GARRET S. DEREUS</h3>
+							</a>
+						</Col>
+						<Col span={8}>
+							<a href="javascript:void;" onClick={openNotificationEmily}>
+								<Avatar
+									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
+									src="https://res.cloudinary.com/ia-interactive/image/upload/v1651086620/emily_vair5u.png"
+								/>
+								<h3>EMILY WESTERMEIER</h3>
+							</a>
+						</Col>
 					</Row>
+				</div>
+			</div>
 
-					<Button type="primary" onClick={showModal}>
-						Open Modal
-					</Button>
-					<Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-						<p>Some contents...</p>
-						<p>Some contents...</p>
-						<p>Some contents...</p>
-					</Modal>
+			<div className={style.vouch}>
+				<div>
 
 				</div>
 			</div>
