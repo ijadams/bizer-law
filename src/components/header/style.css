@@ -1,5 +1,7 @@
 .header {
-	height: 100px;;
+	height: 100px;
+	background: black;
+	padding: 0 1rem;
 }
 
 .header h1 {
@@ -10,7 +12,7 @@
 	line-height: 100px;
 	font-weight: 400;
 	font-family: 'Inter', arial, sans-serif;;
-	color: #FFC107;
+	color: white;
 }
 
 .header nav {
@@ -27,7 +29,7 @@
 	text-align: center;
 	background: rgba(255,255,255,0);
 	text-decoration: none;
-	color: #333;
+	color: whitesmoke;
 	will-change: background-color;
 	transition-property: color;
 	transition-duration: 300ms;
