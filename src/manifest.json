@@ -1,9 +1,10 @@
 {
-  "name": "blog",
-  "short_name": "blog",
+  "name": "Bizer and DeReus | Law Firm | New Orleans",
+  "short_name": "Bizer and DeReus | New Orleans",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
+  "description": "Bizer and DeReus fights for the civil rights of all Americans. We concentrate on promoting access for disabled and minority groups as well as on protecting consumer rights.",
   "background_color": "#fff",
   "theme_color": "#673ab8",
   "icons": [
