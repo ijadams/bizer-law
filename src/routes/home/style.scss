@@ -127,9 +127,22 @@ hr {
   background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  @media screen and (max-width: 767px) {
+    padding: 2rem;
+  }
+
   > div {
     padding: 0 5%;
-    h1 {
+      @media screen and (max-width: 767px) {
+        padding: 0;
+        img {
+          width: 50px !important;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+      h1 {
       color: black;
       text-transform: uppercase;
       font-weight: bold;
