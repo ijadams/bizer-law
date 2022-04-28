@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useForm, ValidationError } from '@formspree/react';
+import 'antd/dist/antd.css';
 
 const ContactForm = () => {
 	const [state, handleSubmit] = useForm('xpzbojzg');
@@ -15,12 +16,22 @@ const ContactForm = () => {
 				id="email"
 				type="email"
 				name="email"
+				placeholder="email@domain.tld"
 			/>
 			<ValidationError
 				prefix="Email"
 				field="email"
 				errors={state.errors}
 			/>
+
+			<label htmlFor="subject">
+				Subject
+			</label>
+			<input id="subject" name="subject" value="Reaching Out..." />
+
+			<label htmlFor="message">
+				Message
+			</label>
 			<textarea
 				id="message"
 				name="message"
@@ -30,7 +41,7 @@ const ContactForm = () => {
 				field="message"
 				errors={state.errors}
 			/>
-			<button type="submit" disabled={state.submitting}>
+			<button class="ant-btn ant-btn-round ant-btn-primary ant-btn-lg" type="submit" disabled={state.submitting}>
 				Submit
 			</button>
 		</form>
