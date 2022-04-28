@@ -73,10 +73,10 @@ const Home = () => {
 					<div>
 						<h1>A <span style="font-weight: 700; color: #3731f9;">civil rights</span> legal firm</h1>
 						<hr></hr>
-						<h2>Bizer & DeReus <span style="font-weight: 700">fights</span> for the <span
-							style="font-weight: 700">rights of all Americans</span>. We concentrate on increasing access
-							for <span style="font-weight: 700">persons with disabilities</span> and <span
-								style="font-weight: 700">minority groups</span> through litigation.</h2>
+						<h2>Bizer & DeReus <span style="font-weight: 700; color: #7f7bfb">fights</span> for the <span
+							style="font-weight: 700; color: #7f7bfb;">rights of all Americans</span>. We concentrate on increasing access
+							for <span style="font-weight: 700; color: #7f7bfb;">persons with disabilities</span> and <span
+								style="font-weight: 700; color: #7f7bfb">minority groups</span> through litigation.</h2>
 
 						<a href="mailto:andrew@bizerlaw.com?subject=Contact%20Form&body=Hello!">
 							<Button type="primary" size="large" shape="round" style="margin-top: 15px;">
