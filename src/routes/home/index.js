@@ -38,10 +38,11 @@ const Home = () => {
 	}
 
 	const contentStyle = {
-		height: '70vh',
+		height: '80vh',
 		color: 'white',
 		textAlign: 'center',
-		background: 'linear-gradient(to right, #232526, #414345)',
+		padding: '3rem 0',
+		background: 'transparent',
 	};
 
 	useEffect(() => {
@@ -184,11 +185,13 @@ const Home = () => {
 								<Timeline.Item><a class="text-white" target="_blank" href="https://www.nola.com/news/business/article_94e391ca-627c-11eb-9f37-079b712f7b75.html"> Three Disabled Men Sue City of New Orleans for Decade-Long Wait to Fix Curb Ramps </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="https://www.reuters.com/legal/litigation/5th-circ-revives-would-be-jurors-suit-over-inaccessible-courthouse-2021-06-16/"> 5th Circ. Revives Would-Be Juror’s Suit Over Inaccessible Courthouse </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="https://www.youtube.com/watch?v=kuf-qGZ7a90"> Bizer &amp; DeReus Prevail in Making the St. Charles Avenue Streetcar Accessible for Wheelchair Users</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank" href="https://www.timesledger.com/stories/2018/40/qclawsuit_2018_10_05_q.html">Bizer &amp; DeReus Settle ADA Lawsuit Against Queens College; Agrees to Spend at Least One Million Dollars on Accessibility</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank" href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">&ZeroWidthSpace;Separate federal lawsuits filed against two Northshore hospitals</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank" href="http://www.wdsu.com/article/st-charles-streetcar-line-to-become-wheelchair-accessible-consent-decree-says/9590384">Consent decree forces St. Charles Streetcar line to become wheelchair accessible</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank" href="http://www.nola.com/traffic/index.ssf/2016/03/new_orleans_faces_lawsuit_over.html">New Orleans faces lawsuit over inaccessible bus stops</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank" href="http://www.nola.com/politics/index.ssf/2016/04/new_orleans_st_charles_streetc.html">New Orleans St. Charles Streetcar under fire for lack of wheelchair access</a></Timeline.Item>
+								<div className={style.pressHide}>
+									<Timeline.Item><a class="text-white" target="_blank" href="https://www.timesledger.com/stories/2018/40/qclawsuit_2018_10_05_q.html">Bizer &amp; DeReus Settle ADA Lawsuit Against Queens College; Agrees to Spend at Least One Million Dollars on Accessibility</a></Timeline.Item>
+									<Timeline.Item><a class="text-white" target="_blank" href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">&ZeroWidthSpace;Separate federal lawsuits filed against two Northshore hospitals</a></Timeline.Item>
+									<Timeline.Item><a class="text-white" target="_blank" href="http://www.wdsu.com/article/st-charles-streetcar-line-to-become-wheelchair-accessible-consent-decree-says/9590384">Consent decree forces St. Charles Streetcar line to become wheelchair accessible</a></Timeline.Item>
+									<Timeline.Item><a class="text-white" target="_blank" href="http://www.nola.com/traffic/index.ssf/2016/03/new_orleans_faces_lawsuit_over.html">New Orleans faces lawsuit over inaccessible bus stops</a></Timeline.Item>
+									<Timeline.Item><a class="text-white" target="_blank" href="http://www.nola.com/politics/index.ssf/2016/04/new_orleans_st_charles_streetc.html">New Orleans St. Charles Streetcar under fire for lack of wheelchair access</a></Timeline.Item>
+								</div>
 							</Timeline>
 						</Col>
 						<Col xs={{ span: 24 }} md={{ span: 12 }} className={style.pressHide}>

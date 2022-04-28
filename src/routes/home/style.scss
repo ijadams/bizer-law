@@ -12,9 +12,14 @@
 hr {
   border: none;
 }
+.videoContainer {
+  width: 52%;
+}
+.ctaContainer {
+  width: 48%;
+}
 
 .videoContainer, .ctaContainer {
-  width: 50%;
   height: calc(100vh - 100px);
   position: relative;
   overflow: hidden;
@@ -37,8 +42,8 @@ hr {
     z-index: 1;
     transform: rotate(90deg);
     height: 100%;
-    right: -100px;
     top: 0;
+    right: -5vw;
     path {
       fill: white !important;
     }
@@ -272,8 +277,12 @@ hr {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+  background: #000 url("data:image/svg+xml,%3Csvg width='1280' height='433' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M0 0h1280L0 433z' fill='%237F7BFB' fill-rule='evenodd'/%3E %3C/svg%3E ") top/100% no-repeat fixed;
+
   @media screen and (max-width: 768px) {
-    border: 0 !important;
+    border: 5px 0 solid #743ad5 !important;
+    background: black;
   }
 }
 
@@ -294,7 +303,7 @@ hr {
     h1 {
       color: black;
       text-transform: Capitalized;
-      font-weight: 400;
+      font-weight: 200;
       letter-spacing: 1px;
       margin-bottom: 2rem;
       margin-top: 1rem;
