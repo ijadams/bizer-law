@@ -79,8 +79,9 @@ hr {
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-    background-position: 50% 100%;
-    background-size: cover;
+    background: #fff;
+    //background-position: 50% 100%;
+    //background-size: cover;
   }
 }
 
@@ -104,8 +105,17 @@ hr {
   border-width: 5px;
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 
+  @media screen and (max-width: 768px) {
+    min-height: 100vh;
+    background: black !important;
+    border: 0 !important;
+  }
+
   > div {
     padding: 0 20%;
+    @media screen and (max-width: 768px) {
+      padding: 2.5% 10%;
+    }
     h1 {
       color: white;
       text-transform: uppercase;
@@ -146,7 +156,12 @@ hr {
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 
   @media screen and (max-width: 767px) {
-    padding: 2rem;
+    border: 0 !important;
+    padding: 1rem;
+    h3 {
+      font-size: 1.5rem;
+      line-height: 100%;
+    }
   }
 
   > div {
@@ -209,6 +224,7 @@ hr {
   @media screen and (max-width: 767px) {
     background: black;
     padding: 2rem;
+    border: 0 !important;
     hr {
       display: none;
     }
@@ -256,6 +272,9 @@ hr {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  @media screen and (max-width: 768px) {
+    border: 0 !important;
+  }
 }
 
 .press {
