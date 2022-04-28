@@ -34,7 +34,7 @@
     "webpack-bundle-analyzer": "^3.4.1"
   },
   "dependencies": {
-    "@ant-design/icons": "4.0.0",
+    "@ant-design/icons": "^4.7.0",
     "@preact/prerender-data-provider": "^3.0.1",
     "antd": "^4.20.1",
     "imagemin-mozjpeg": "^8.0.0",

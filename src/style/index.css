@@ -16,6 +16,19 @@ html, body {
 	}
 }
 
+.ant-drawer-body, .ant-drawer-header {
+	background: black !important;
+	color: white !important;
+}
+
+.ant-drawer-title {
+	color: white !important;
+}
+
+button.ant-drawer-close svg {
+	fill: white !important;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -38,6 +51,12 @@ a {
 	background-size: 800px 104px;
 	position: relative;
 }
+
+.ant-drawer-content, .ant-drawer-header {
+	background: black;
+	color: white;
+}
+
 @keyframes placeHolderShimmer {
 	0% {
 		background-position: -468px 0;

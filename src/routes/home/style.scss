@@ -191,6 +191,53 @@
   }
 }
 
+.press {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  height: auto;
+  width: 100%;
+  background: white;
+  color: black;
+  background: #fff url("data:image/svg+xml,%3Csvg width='686' height='644' xmlns='http://www.w3.org/2000/svg'%3E %3Cg fill='%237F7BFB' fill-rule='evenodd'%3E %3Cpath d='M140.515 611.116C-12.61 495.728-45.706 281.379 66.592 132.353 178.892-16.673 394.06-43.941 547.185 71.446c153.125 115.388-83.89 141.804-196.188 290.83-112.299 149.026-57.357 364.228-210.482 248.84z' opacity='.8'/%3E %3Cpath d='M427 533.716c143.042 0 259-60.441 259-135 0-74.558-190.587-12.488-333.629-12.488-143.041 0-184.371-62.07-184.371 12.488 0 74.559 115.958 135 259 135z' opacity='.6'/%3E %3C/g%3E %3C/svg%3E") center/auto 100% no-repeat fixed;
+  > div {
+    width: 100%;
+    padding: 5px 5%;
+    background: white;
+    h1 {
+      color: black;
+      text-transform: lowercase;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+    }
+    h3 {
+      font-weight: 200;
+      font-size: 1rem;
+      letter-spacing: 2px;
+      color: white;
+      margin-top: 2rem;
+    }
+    h3, p {
+      padding: 0 2rem;
+    }
+    hr {
+      width: 20px;
+      height: 2px;
+      margin-bottom: 100px;
+      background: white;
+    }
+  }
+}
+
+.pressHide {
+  @media screen and (max-width: 1250px) {
+    display: none;
+  }
+}
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -198,6 +245,9 @@
 }
 
 
-.vouch {
-
+iframe {
+  max-width: 1300px !important;
+  @media screen and (max-width: 1250px) {
+    max-width: 900px !important;
+  }
 }
