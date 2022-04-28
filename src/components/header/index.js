@@ -36,6 +36,6 @@ const Header = () => {
 			</Drawer>
 		</header>
 	);
-}
+};
 
 export default Header;

@@ -4,6 +4,8 @@
   padding-top: 100px;
   h1 {
     font-weight: 500;
+    font-size: 2.7rem;
+    line-height: 100%;
   }
 }
 
@@ -93,6 +95,15 @@ hr {
   background-position: left 200% !important;
   color: white;
   text-align: center;
+
+  border: 15px solid;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
   > div {
     padding: 0 20%;
     h1 {
@@ -126,6 +137,13 @@ hr {
   background: #ECE9E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 15px solid;
+  border-left: 0;
+  border-right: 0;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 
   @media screen and (max-width: 767px) {
     padding: 2rem;
@@ -256,7 +274,7 @@ hr {
     background: white;
     h1 {
       color: black;
-      text-transform: lowercase;
+      text-transform: Capitalized;
       font-weight: 400;
       letter-spacing: 1px;
       margin-bottom: 2rem;

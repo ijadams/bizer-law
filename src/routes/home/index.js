@@ -4,6 +4,7 @@ import style from './style';
 import 'antd/dist/antd.css';
 import { Row, Col, Button, Avatar, notification, Carousel, Timeline } from 'antd';
 import { andy, garret, emily } from './index.const';
+import { SmileOutlined } from '@ant-design/icons';
 
 const Home = () => {
 
@@ -59,7 +60,7 @@ const Home = () => {
 				</div>
 				<div className={style.ctaContainer}>
 					<div>
-						<h1>A <span style="font-weight: 700;">civil rights</span> legal firm</h1>
+						<h1>A <span style="font-weight: 700; color: #3731f9;">civil rights</span> legal firm</h1>
 						<hr></hr>
 						<h2>Bizer & DeReus <span style="font-weight: 700">fights</span> for the <span
 							style="font-weight: 700">rights of all Americans</span>. We concentrate on increasing access
@@ -163,11 +164,12 @@ const Home = () => {
 
 			<div className={style.press}>
 				<div>
-					<h1>What people are saying about us</h1>
+					<h1>What people are saying about Bizer & DeReus</h1>
 					<Row gutter={[16, 16]}>
 						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<Timeline>
-								<Timeline.Item><a class="text-white" target="_blank" href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Tearful Uber Worker Defends Accessibility Efforts at ADA Trial </a></Timeline.Item>
+								<Timeline.Item color="purple" dot={<SmileOutlined />}>
+									<a class="text-white" target="_blank" href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Tearful Uber Worker Defends Accessibility Efforts at ADA Trial </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="https://www.law360.com/articles/1456727"> Uber's 'Accessibility Problem' Goes to Bench Trial in Calif. </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="https://www.nola.com/news/business/article_94e391ca-627c-11eb-9f37-079b712f7b75.html"> Three Disabled Men Sue City of New Orleans for Decade-Long Wait to Fix Curb Ramps </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="https://www.reuters.com/legal/litigation/5th-circ-revives-would-be-jurors-suit-over-inaccessible-courthouse-2021-06-16/"> 5th Circ. Revives Would-Be Juror’s Suit Over Inaccessible Courthouse </a></Timeline.Item>
@@ -191,7 +193,7 @@ const Home = () => {
 								<Timeline.Item><a class="text-white" target="_blank" href="http://www.nola.com/traffic/index.ssf/2017/10/uber_ada_lawsuit_wheelchair_ne.html"> Uber slapped with ADA lawsuit from wheelchair-using New Orleanians</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="http://www.nola.com/health/index.ssf/2017/11/university_medical_center_laws.html"> Bizer &amp; DeReus Secures $50,000 Settlement from University Medical Center for Failure to Provide Sign Language Interpreters to a Deaf Woman</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank" href="http://www.wdsu.com/article/disabled-saints-fan-files-lawsuit-against-superdome/21530526"> Disabled Saints fan sues Superdome </a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank" href="https://www.nola.com/health/index.ssf/2018/06/deaf_slidell_resident_sues_loc.html"> Deaf Slidell resident sues local nursing home over inadequate interpreter service</a></Timeline.Item>
+								<Timeline.Item color="purple" dot={<SmileOutlined />}><a class="text-white" target="_blank" href="https://www.nola.com/health/index.ssf/2018/06/deaf_slidell_resident_sues_loc.html"> Deaf Slidell resident sues local nursing home over inadequate interpreter service</a></Timeline.Item>
 							</Timeline>
 						</Col>
 					</Row>

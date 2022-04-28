@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title><% preact.title %></title>
+		<title><% preact.title %> ⚖️ ☎️</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -56,16 +56,16 @@
 				for(var i = 0; i<sources.length;i++) {
 					sources[i].setAttribute('src', sources[i].getAttribute('data-src'));
 				}
-				// If for some reason we do want to load the video after, for desktop as opposed to mobile (I'd imagine), use videojs API to load
-				video.load();
-				video.muted= "muted";
-				document.body.classList.add('loaded');
-			} else {
-				console.log("is mobile")
-				setTimeout(() => {
-					document.body.classList.add('loaded');
-				}, 250)
+				if (video) {
+					// If for some reason we do want to load the video after, for desktop as opposed to mobile (I'd imagine), use videojs API to load
+					video.load();
+					video.muted= "muted";
+				}
 			}
+
+			setTimeout(() => {
+				document.body.classList.add('loaded');
+			}, 500)
 
 		};
 	</script>
