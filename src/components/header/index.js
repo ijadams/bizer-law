@@ -22,7 +22,6 @@ const Header = () => {
 				style="font-weight: 100;">&</span> <span style="letter-spacing: 1px; font-weight: 400;">DeREUS</span>
 			</h1></Link>
 			<nav>
-				<Link activeClassName={style.active} href="/blogs">Blogs</Link>
 				<Link activeClassName={style.active} href="/contact">Contact</Link>
 			</nav>
 			<div className={style.mobile}>
@@ -30,7 +29,6 @@ const Header = () => {
 			</div>
 			<Drawer title="Menu" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
 				<ul>
-					<li><Link activeClassName={style.active} href="/blogs">Blogs</Link></li>
 					<li><Link activeClassName={style.active} href="/contact">Contact</Link></li>
 				</ul>
 			</Drawer>
