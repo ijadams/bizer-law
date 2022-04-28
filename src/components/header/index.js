@@ -23,7 +23,7 @@ const Header = () => {
 			</h1></Link>
 			<nav>
 				<Link activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link>
-				<Link activeClassName={style.active} href="tel:504-619-9999"><PhoneOutlined/>  &nbsp; Call </Link>
+				<Link activeClassName={style.active} href="tel:+5046199999"><PhoneOutlined/>  &nbsp; Call </Link>
 			</nav>
 			<div className={style.mobile}>
 				<Button onClick={showDrawer} ghost="true" icon={<MenuOutlined/>}/>
@@ -31,7 +31,7 @@ const Header = () => {
 			<Drawer title="Menu" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
 				<ul>
 					<li><Link activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
-					<li><Link activeClassName={style.active} href="tel:504-619-9999"><PhoneOutlined/>  &nbsp; Call </Link></li>
+					<li><Link activeClassName={style.active} href="tel:+5046199999"><PhoneOutlined/>  &nbsp; Call </Link></li>
 				</ul>
 			</Drawer>
 		</header>

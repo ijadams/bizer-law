@@ -11,8 +11,8 @@ const Footer = () => (
 					<h3>Bizer & DeReus</h3>
 					<p>3319 St. Claude Avenue
 					New Orleans, LA 70117</p>
-					<a href="tel:504-619-9999">p: 504.619.9999</a>
-					<a href="tel:504.948.9996">f: 504.948.9996</a>
+					<a href="tel:+5046199999">p: 504.619.9999</a>
+					<a href="tel:+5049489996">f: 504.948.9996</a>
 					<a href="mailto:andrew@bizerlaw.com">andrew@bizerlaw.com</a>
 				</div>
 				<ul>
