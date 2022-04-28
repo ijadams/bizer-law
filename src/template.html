@@ -54,9 +54,14 @@
 				// If for some reason we do want to load the video after, for desktop as opposed to mobile (I'd imagine), use videojs API to load
 				video.load();
 				video.muted= "muted";
+				document.body.classList.add('loaded');
+			} else {
+				console.log("is mobile")
+				setTimeout(() => {
+					document.body.classList.add('loaded');
+				}, 250)
 			}
 
-			document.body.classList.add('loaded');
 		};
 	</script>
 </html>
