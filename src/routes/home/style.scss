@@ -55,6 +55,11 @@ hr {
   @media screen and (max-width: 768px) {
     display: none;
   }
+  @media screen and (min-width: 768px) {
+    video {
+      display: block;
+    }
+  }
 }
 
 .ctaContainer {
@@ -170,6 +175,17 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  @media screen and (max-width: 767px) {
+    background: black;
+    padding: 2rem;
+    hr {
+      display: none;
+    }
+    span.ant-avatar.ant-avatar-circle.ant-avatar-image {
+      //height: 150px !important;
+      width: 150px !important;
+    }
+  }
   > div {
     width: 100%;
     padding: 0 5%;
@@ -179,6 +195,9 @@ hr {
       font-weight: 400;
       letter-spacing: 7px;
       margin-bottom: 15px;
+      @media screen and (max-width: 768px) {
+        margin-bottom: 30px;
+      }
     }
     h3 {
       font-weight: 200;
