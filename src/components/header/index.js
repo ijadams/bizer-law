@@ -3,7 +3,7 @@ import { useState } from 'preact/hooks';
 import { Link } from 'preact-router/match';
 import style from './style';
 import { Button, Drawer} from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
+import { MenuOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
 
 const Header = () => {
 	const [visible, setVisible] = useState(false);
@@ -22,14 +22,16 @@ const Header = () => {
 				style="font-weight: 100;">&</span> <span style="letter-spacing: 1px; font-weight: 400;">DeREUS</span>
 			</h1></Link>
 			<nav>
-				<Link activeClassName={style.active} href="/contact">Contact</Link>
+				<Link activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link>
+				<Link activeClassName={style.active} href="tel:504-619-9999"><PhoneOutlined/>  &nbsp; Call </Link>
 			</nav>
 			<div className={style.mobile}>
 				<Button onClick={showDrawer} ghost="true" icon={<MenuOutlined/>}/>
 			</div>
 			<Drawer title="Menu" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
 				<ul>
-					<li><Link activeClassName={style.active} href="/contact">Contact</Link></li>
+					<li><Link activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
+					<li><Link activeClassName={style.active} href="tel:504-619-9999"><PhoneOutlined/>  &nbsp; Call </Link></li>
 				</ul>
 			</Drawer>
 		</header>
