@@ -343,7 +343,7 @@ hr {
 
 .pressHide {
   @media screen and (max-width: 1250px) {
-    display: none;
+    display: none !important;
   }
 }
 

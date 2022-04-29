@@ -11,7 +11,7 @@ const photographs = (props) => {
 					<div>Hi!</div>
 					<div>If you are interested in working with us please drop us a line and we will be in touch shortly.</div>
 					<div>&nbsp;</div>
-					<div>Cheers 🍻</div>
+					<div>Cheers ⚖️ ☎️</div>
 				</p>
 				<ContactForm/>
 			</div>
