@@ -113,7 +113,6 @@ hr {
   border: 15px solid;
   border-left: 0;
   border-right: 0;
-  border-bottom: 0;
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to left,  rgb(55, 49, 249), #dfdefe);
@@ -168,7 +167,8 @@ hr {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to left,  rgb(55, 49, 249), #dfdefe);
-
+  border-bottom: 5px solid;
+  
   @media screen and (max-width: 767px) {
     border: 0 !important;
     padding: 2rem 1rem;
