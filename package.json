@@ -48,6 +48,7 @@
     "preact-mdl": "^2.2.2",
     "preact-render-to-string": "^5.1.10",
     "preact-router": "^3.0.1",
+    "react-device-detect": "^2.2.2",
     "sass": "^1.51.0",
     "sass-loader": "10"
   },
