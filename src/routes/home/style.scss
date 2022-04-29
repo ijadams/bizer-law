@@ -168,7 +168,7 @@ hr {
   border-width: 5px;
   border-image-source: linear-gradient(to left,  rgb(55, 49, 249), #dfdefe);
   border-bottom: 5px solid;
-  
+
   @media screen and (max-width: 767px) {
     border: 0 !important;
     padding: 2rem 1rem;
@@ -292,7 +292,7 @@ hr {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to left,  rgb(55, 49, 249), #dfdefe);
-
+  border-bottom: 5px solid;
   background: #000 url("data:image/svg+xml,%3Csvg width='1280' height='433' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M0 0h1280L0 433z' fill='%237F7BFB' fill-rule='evenodd'/%3E %3C/svg%3E ") top/100% no-repeat fixed;
 
   @media screen and (max-width: 768px) {
