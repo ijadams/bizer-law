@@ -84,7 +84,12 @@ hr {
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-    background: #fff;
+    background: url("https://res.cloudinary.com/ia-interactive/image/upload/v1651239713/kinetic-pattern-grey_copy_zxd1av.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    //background: #ece9e6; /* fallback for old browsers */
+    //background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    //background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     //background-position: 50% 100%;
     //background-size: cover;
   }
@@ -112,8 +117,9 @@ hr {
 
   @media screen and (max-width: 768px) {
     min-height: 100vh;
-    background: black !important;
-    border: 0 !important;
+    background: black url("data:image/svg+xml,%3Csvg width='686' height='644' xmlns='http://www.w3.org/2000/svg'%3E %3Cg fill='%237F7BFB' fill-rule='evenodd'%3E %3Cpath d='M140.515 611.116C-12.61 495.728-45.706 281.379 66.592 132.353 178.892-16.673 394.06-43.941 547.185 71.446c153.125 115.388-83.89 141.804-196.188 290.83-112.299 149.026-57.357 364.228-210.482 248.84z' opacity='.8'/%3E %3Cpath d='M427 533.716c143.042 0 259-60.441 259-135 0-74.558-190.587-12.488-333.629-12.488-143.041 0-184.371-62.07-184.371 12.488 0 74.559 115.958 135 259 135z' opacity='.6'/%3E %3C/g%3E %3C/svg%3E") center/auto 100% no-repeat;
+    border-left: 0 !important;
+    border-right: 0 !important;
   }
 
   > div {
@@ -162,11 +168,7 @@ hr {
 
   @media screen and (max-width: 767px) {
     border: 0 !important;
-    padding: 1rem;
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    padding: 2rem 1rem;
     h3 {
       font-size: 1.5rem;
       line-height: 100%;
@@ -231,15 +233,21 @@ hr {
   background-size: cover;
   background-position: center;
   @media screen and (max-width: 767px) {
-    background: black;
     padding: 2rem;
-    border: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    background: black url("data:image/svg+xml,%3Csvg width='615' height='554' xmlns='http://www.w3.org/2000/svg'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cpath d='M463.283 528.726c45.144 0 95.716 8.237 151.717 24.712V0H41.584C28.58 76.038-4.694 126.702.957 203.448c16.342 221.959 215.179 325.278 462.326 325.278z' fill='%239592FB'/%3E %3Cpath d='M382.319 485.092c54.57 14.534 187.124 6.139 232.681-13.977V0H122.36c-16.232 41.585 18.088 107.04 18.088 154.372 0 203.855 45.087 278.309 241.87 330.72z' fill='%238B87FA'/%3E %3Cpath d='M443.883 440.71c54.208 0 128.702-54.567 171.117-81.896V0H231.198c-21.166 38.7-14.497 103.867-14.497 151.086 0 150.221 76.96 289.624 227.182 289.624z' fill='%237F7BFB'/%3E %3C/g%3E %3C/svg%3E") top right no-repeat;
+    background-size: 100%;
+
     hr {
       display: none;
     }
     span.ant-avatar.ant-avatar-circle.ant-avatar-image {
       //height: 150px !important;
       width: 150px !important;
+    }
+    h3 {
+      font-weight: 400 !important;
     }
   }
   > div {
@@ -285,8 +293,9 @@ hr {
   background: #000 url("data:image/svg+xml,%3Csvg width='1280' height='433' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M0 0h1280L0 433z' fill='%237F7BFB' fill-rule='evenodd'/%3E %3C/svg%3E ") top/100% no-repeat fixed;
 
   @media screen and (max-width: 768px) {
-    border: 5px 0 solid #743ad5 !important;
-    background: black;
+    border-left: 0;
+    border-right: 0;
+    background: #000 url("data:image/svg+xml,%3Csvg width='1280' height='433' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M0 0h1280L0 433z' fill='%237F7BFB' fill-rule='evenodd'/%3E %3C/svg%3E ") top/100% no-repeat;
   }
 }
 

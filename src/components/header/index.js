@@ -32,7 +32,7 @@ const Header = () => {
 			</div>
 			<Drawer title="Menu" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
 				<ul>
-					<li><Link activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
+					<li><Link onClick={onClose} activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
 					<li><Link activeClassName={style.active} href="tel:+5046199999"><PhoneOutlined/>  &nbsp; Call
 					</Link></li>
 				</ul>
