@@ -9,6 +9,21 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+body {
+	opacity: 0;
+	transition: 0.25s ease-in;
+}
+body.loaded {
+	opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		opacity: 1 !important;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	html, body {
 		overflow: scroll;

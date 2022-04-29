@@ -25,25 +25,14 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap" rel="stylesheet">
-		<style>
-			body {
-				opacity: 0;
-				transition: 0.25s ease-in;
-			}
-			body.loaded {
-				opacity: 1 !important;
-			}
-			/*@media screen and (max-width: 768px) {*/
-			/*	body {*/
-			/*		opacity: 1 !important;*/
-			/*	}*/
-			/*}*/
-		</style>
 	</head>
 	<body>
 		<% preact.bodyEnd %>
 	</body>
 	<script>
+		window.addEventListener("load", function(){
+			//everything is fully loaded, don't use me if you can use DOMContentLoaded
+		});
 		window.onload = function() {
 			setTimeout(() => {
 				document.body.classList.add('loaded');

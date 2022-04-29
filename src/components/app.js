@@ -23,6 +23,7 @@ export default class App extends Component {
 		this.currentUrl = e.url;
 	};
 
+
 	render(props) {
 		return (
 			<Provider value={props}>
