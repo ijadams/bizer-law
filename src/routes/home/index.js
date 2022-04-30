@@ -71,7 +71,7 @@ const Home = () => {
 				</div>
 				<div className={style.ctaContainer}>
 					<div>
-						<h1>A <span style="font-weight: 700; color: #3731f9;">civil rights</span> legal firm</h1>
+						<h1>A <span style="font-weight: 700; color: #3731f9;">civil rights</span> law firm</h1>
 						<hr></hr>
 						<h2>Bizer & DeReus <span style="font-weight: 700; color: #7f7bfb">fights</span> for the <span
 							style="font-weight: 700; color: #7f7bfb;">rights of all Americans</span>. We concentrate on
@@ -115,15 +115,10 @@ const Home = () => {
 						</Col>
 						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<img
-								src="https://res.cloudinary.com/ia-interactive/image/upload/v1651080236/noun-hurricane-3637508_vem12e.png"/>
-							<h3>HURRICANE CLAIMS</h3>
+								src="https://res.cloudinary.com/ia-interactive/image/upload/v1651324929/noun-injury-231864_zvx9fd.png"/>
+							<h3>PERSONAL INJURY</h3>
 							<hr></hr>
-							<p>As a Louisiana law firm, Bizer & DeReus understands first-hand what it's like to have to
-								deal with hurricane-related losses. One of our attorneys suffered severe flooding from
-								Hurricane Barry. Another had roof damage from Hurricane Ida. Because of our personal
-								experiences, we understand what it's like to deal with storm-related property damage in
-								the way big, out-of-state firms do not. If you are a Hurricane Ida survivor whose home
-								or business was damaged, please reach out to us today.</p>
+							<p>At Bizer & DeReus, we have extensive experience litigating personal injury cases in state and federal court. We handle personal injury cases involving motor vehicle collision, trucking accidents, premises liability, and others.</p>
 						</Col>
 					</Row>
 				</div>
@@ -188,14 +183,13 @@ const Home = () => {
 
 			<div className={style.press}>
 				<div>
-					<h1>What people are saying about Bizer & DeReus</h1>
+					<h1>Press Coverage about Bizer & DeReus</h1>
 					<Row gutter={[16, 16]}>
 						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<Timeline>
 								<Timeline.Item color="purple" dot={<SmileOutlined/>}>
 									<a class="text-white" target="_blank"
-									   href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Tearful
-										Uber Worker Defends Accessibility Efforts at ADA Trial </a></Timeline.Item>
+									   href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Bizer & DeReus Takes ADA Case to Trial Over Uber's Failure to Provide Wheelchair Accessibility </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://www.law360.com/articles/1456727"> Uber's 'Accessibility
 									Problem' Goes to Bench Trial in Calif. </a></Timeline.Item>

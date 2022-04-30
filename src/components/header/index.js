@@ -25,7 +25,7 @@ const Header = () => {
 				<Link activeClassName={style.active} href="/contact"><MailOutlined/><span
 					style="margin-right: 3px;"></span> Contact</Link>
 				<a activeClassName={style.active} href="tel:+5046199999"><PhoneOutlined/><span
-					style="margin-right: 3px;"></span> Call </a>
+					style="margin-right: 3px;"></span> 504-619-9999 </a>
 			</nav>
 			<div className={style.mobile}>
 				<Button onClick={showDrawer} ghost="true" icon={<MenuOutlined/>}/>
@@ -34,7 +34,7 @@ const Header = () => {
 				<ul>
 					<li><Link onClick={onClose} activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
 					<li>
-						<a href="tel:+5046199999"><PhoneOutlined/>  &nbsp; Call</a>
+						<a href="tel:+5046199999"><PhoneOutlined/>  &nbsp; 504-619-9999</a>
 					</li>
 				</ul>
 			</Drawer>

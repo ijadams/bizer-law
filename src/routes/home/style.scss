@@ -183,7 +183,7 @@ hr {
       @media screen and (max-width: 767px) {
         padding: 0;
         img {
-          width: 50px !important;
+          height: 125px !important;
         }
         h2 {
           font-size: 1.5rem;
@@ -214,8 +214,8 @@ hr {
       //font-weight: 700;
     }
     img {
-      width: 80px;
-      height: auto;
+      height: 150px;
+      width: auto;
       padding: 2rem 0;
     }
   }
