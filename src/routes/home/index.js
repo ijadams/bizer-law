@@ -58,13 +58,12 @@ const Home = () => {
 					<video
 						preload="none"
 						playsInline autoPlay muted loop
-						poster="https://res.cloudinary.com/ia-interactive/image/upload/v1651077654/fq_zwkfrn.jpg">
+						poster="https://res.cloudinary.com/ia-interactive/image/upload/v1651328306/Screen_Shot_2022-04-30_at_9.17.48_AM_d3qfqs.png">
 						<source data-src=""
-								src={onDesktop() ? 'https://res.cloudinary.com/ia-interactive/video/upload/v1651072097/quarter_rats_w9cxuz.mp4' : ''}
+								src={onDesktop() ? 'https://res.cloudinary.com/ia-interactive/video/upload/v1651328138/res_1_cb5z8e.mp4' : ''}
 								type="video/mp4"></source>
 					</video>
 					}
-
 					<svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
 						<path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z"></path>
 					</svg>
