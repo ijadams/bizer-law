@@ -71,14 +71,14 @@ const Home = () => {
 				</div>
 				<div className={style.ctaContainer}>
 					<div>
-						<h1>A <span style="font-weight: 700; color: #3731f9;">civil rights</span> law firm</h1>
+						<h1>A <span style="font-weight: 700; color: #0C6DB7;">civil rights</span> law firm</h1>
 						<hr></hr>
-						<h2>Bizer & DeReus <span style="font-weight: 700; color: #7f7bfb">fights</span> for the <span
-							style="font-weight: 700; color: #7f7bfb;">rights of all Americans</span>. We concentrate on
+						<h2>Bizer & DeReus <span style="font-weight: 700; color: #07538D">fights</span> for the <span
+							style="font-weight: 700; color: #07538D;">rights of all Americans</span>. We concentrate on
 							increasing access
 							for <span
-								style="font-weight: 700; color: #7f7bfb;">persons with disabilities</span> and <span
-								style="font-weight: 700; color: #7f7bfb">minority groups</span> through litigation.</h2>
+								style="font-weight: 700; color: #07538D;">persons with disabilities</span> and <span
+								style="font-weight: 700; color: #07538D">minority groups</span> through litigation.</h2>
 
 						<a href="mailto:andrew@bizerlaw.com?subject=Contact%20Form&body=Hello!">
 							<Button type="primary" size="large" shape="round" style="margin-top: 15px;">
@@ -163,19 +163,19 @@ const Home = () => {
 				<Carousel afterChange={onChange}>
 					<div>
 						<div style={contentStyle}>
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sL1IZlsupnQ"
+									title="YouTube video player" frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen></iframe>
+						</div>
+					</div>
+					<div>
+						<div style={contentStyle}>
 							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/R0GI6yATVV8"
 									title="YouTube video player" frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowFullScreen>
 							</iframe>
-						</div>
-					</div>
-					<div>
-						<div style={contentStyle}>
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sL1IZlsupnQ"
-									title="YouTube video player" frameBorder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowFullScreen></iframe>
 						</div>
 					</div>
 				</Carousel>
