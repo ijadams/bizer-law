@@ -70,7 +70,7 @@ const Home = () => {
 				</div>
 				<div className={style.ctaContainer}>
 					<div>
-						<h1>A <span style="font-weight: 700; color: #0C6DB7;">civil rights</span> law firm</h1>
+						<h1>A <span style="font-weight: 700; color: #0C6DB7;">Civil Rights</span> Law Firm</h1>
 						<hr></hr>
 						<h2>Bizer & DeReus <span style="font-weight: 700; color: #07538D">fights</span> for the <span
 							style="font-weight: 700; color: #07538D;">rights of all Americans</span>. We concentrate on
@@ -117,7 +117,9 @@ const Home = () => {
 								src="https://res.cloudinary.com/ia-interactive/image/upload/v1651324929/noun-injury-231864_zvx9fd.png"/>
 							<h3>PERSONAL INJURY</h3>
 							<hr></hr>
-							<p>At Bizer & DeReus, we have extensive experience litigating personal injury cases in state and federal court. We handle personal injury cases involving motor vehicle collision, trucking accidents, premises liability, and others.</p>
+							<p>At Bizer & DeReus, we have extensive experience litigating personal injury cases in state
+								and federal court. We handle personal injury cases involving motor vehicle collision,
+								trucking accidents, premises liability, and others.</p>
 						</Col>
 					</Row>
 				</div>
@@ -188,7 +190,14 @@ const Home = () => {
 							<Timeline>
 								<Timeline.Item color="purple" dot={<SmileOutlined/>}>
 									<a class="text-white" target="_blank"
-									   href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Bizer & DeReus Takes ADA Case to Trial Over Uber's Failure to Provide Wheelchair Accessibility </a></Timeline.Item>
+									   href="https://www.youtube.com/watch?v=kuf-qGZ7a90"> Bizer &amp; DeReus
+										Prevail in Making the St. Charles Avenue Streetcar Accessible for Wheelchair
+										Users</a></Timeline.Item>
+								<Timeline.Item color="purple" dot={<SmileOutlined/>}>
+									<a class="text-white" target="_blank"
+									   href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Bizer
+										& DeReus Takes ADA Case to Trial Over Uber's Failure to Provide Wheelchair
+										Accessibility </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://www.law360.com/articles/1456727"> Uber's 'Accessibility
 									Problem' Goes to Bench Trial in Calif. </a></Timeline.Item>
@@ -200,10 +209,6 @@ const Home = () => {
 												  href="https://www.reuters.com/legal/litigation/5th-circ-revives-would-be-jurors-suit-over-inaccessible-courthouse-2021-06-16/"> 5th
 									Circ. Revives Would-Be Juror’s Suit Over Inaccessible
 									Courthouse </a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.youtube.com/watch?v=kuf-qGZ7a90"> Bizer &amp; DeReus
-									Prevail in Making the St. Charles Avenue Streetcar Accessible for Wheelchair
-									Users</a></Timeline.Item>
 								<div className={style.pressHide}>
 									<Timeline.Item><a class="text-white" target="_blank"
 													  href="https://www.timesledger.com/stories/2018/40/qclawsuit_2018_10_05_q.html">Bizer &amp; DeReus
@@ -258,6 +263,20 @@ const Home = () => {
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="http://www.wdsu.com/article/disabled-saints-fan-files-lawsuit-against-superdome/21530526"> Disabled
 									Saints fan sues Superdome </a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="https://romesentinel.com/stories/utica-settles-lawsuit-regarding-accommodations-at-city-hall-for-disabled,106531"> Utica
+									settles lawsuit regarding accommodations at City Hall for
+									disabled </a></Timeline.Item>
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="https://www.nola.com/news/business/article_56e8703c-7fa1-11ec-beed-f7cc4d8aae3e.html"> Thousands
+									of New Orleans sidewalks to get upgrades after legal deal; see timeline, work
+									plan</a></Timeline.Item>
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="https://www.thetowntalk.com/story/news/2020/07/06/covid-19-louisiana-alexandria-city-council-harry-silver-virtual-meeting/5387731002/"> Federal
+									judge: City of Alexandria must allow Councilman Silver to attend meetings virtually
+								</a></Timeline.Item>
+
 								<Timeline.Item color="purple" dot={<SmileOutlined/>}><a class="text-white"
 																						target="_blank"
 																						href="https://www.nola.com/health/index.ssf/2018/06/deaf_slidell_resident_sues_loc.html"> Deaf
