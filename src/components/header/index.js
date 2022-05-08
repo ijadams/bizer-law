@@ -30,7 +30,7 @@ const Header = () => {
 			<div className={style.mobile}>
 				<Button onClick={showDrawer} ghost="true" icon={<MenuOutlined/>}/>
 			</div>
-			<Drawer title="Menu" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
+			<Drawer title="Bizer & DeReus" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
 				<ul>
 					<li><Link onClick={onClose} activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
 					<li>
