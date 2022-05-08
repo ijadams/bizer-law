@@ -4,7 +4,6 @@ import style from './style';
 import 'antd/dist/antd.css';
 import { Row, Col, Button, Avatar, notification, Carousel, Timeline } from 'antd';
 import { andy, garret, emily } from './index.const';
-import { SmileOutlined } from '@ant-design/icons';
 import { isDesktop } from 'react-device-detect';
 
 const Home = () => {
@@ -188,12 +187,16 @@ const Home = () => {
 					<Row gutter={[16, 16]}>
 						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<Timeline>
-								<Timeline.Item color="purple" dot={<SmileOutlined/>}>
+								<Timeline.Item>
 									<a class="text-white" target="_blank"
 									   href="https://www.youtube.com/watch?v=kuf-qGZ7a90"> Bizer &amp; DeReus
 										Prevail in Making the St. Charles Avenue Streetcar Accessible for Wheelchair
 										Users</a></Timeline.Item>
-								<Timeline.Item color="purple" dot={<SmileOutlined/>}>
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="https://www.timesledger.com/stories/2018/40/qclawsuit_2018_10_05_q.html">Bizer &amp; DeReus
+									Settle ADA Lawsuit Against Queens College; Agrees to Spend at Least One Million
+									Dollars on Accessibility</a></Timeline.Item>
+								<Timeline.Item>
 									<a class="text-white" target="_blank"
 									   href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Bizer
 										& DeReus Takes ADA Case to Trial Over Uber's Failure to Provide Wheelchair
@@ -206,49 +209,45 @@ const Home = () => {
 									Disabled Men Sue City of New Orleans for Decade-Long Wait to Fix Curb
 									Ramps </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.nola.com/traffic/index.ssf/2017/02/new_orleans_rta_court_settleme.html">Bizer &amp; DeReus
+									Prevail in Forcing the City of New Orleans to Make Its Bus Stops Compliant for
+									Wheelchair Users</a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://www.reuters.com/legal/litigation/5th-circ-revives-would-be-jurors-suit-over-inaccessible-courthouse-2021-06-16/"> 5th
 									Circ. Revives Would-Be Juror’s Suit Over Inaccessible
 									Courthouse </a></Timeline.Item>
-								<div className={style.pressHide}>
-									<Timeline.Item><a class="text-white" target="_blank"
-													  href="https://www.timesledger.com/stories/2018/40/qclawsuit_2018_10_05_q.html">Bizer &amp; DeReus
-										Settle ADA Lawsuit Against Queens College; Agrees to Spend at Least One Million
-										Dollars on Accessibility</a></Timeline.Item>
-									<Timeline.Item><a class="text-white" target="_blank"
-													  href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">&ZeroWidthSpace;Separate
-										federal lawsuits filed against two Northshore hospitals</a></Timeline.Item>
-									<Timeline.Item><a class="text-white" target="_blank"
-													  href="http://www.wdsu.com/article/st-charles-streetcar-line-to-become-wheelchair-accessible-consent-decree-says/9590384">Consent
-										decree forces St. Charles Streetcar line to become wheelchair
-										accessible</a></Timeline.Item>
-									<Timeline.Item><a class="text-white" target="_blank"
-													  href="http://www.nola.com/traffic/index.ssf/2016/03/new_orleans_faces_lawsuit_over.html">New
-										Orleans faces lawsuit over inaccessible bus stops</a></Timeline.Item>
-									<Timeline.Item><a class="text-white" target="_blank"
-													  href="http://www.nola.com/politics/index.ssf/2016/04/new_orleans_st_charles_streetc.html">New
-										Orleans St. Charles Streetcar under fire for lack of wheelchair
-										access</a></Timeline.Item>
-								</div>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.nola.com/health/index.ssf/2017/11/university_medical_center_laws.html"> Bizer &amp; DeReus
+									Secures $50,000 Settlement from University Medical Center for Failure to Provide
+									Sign Language Interpreters to a Deaf Woman</a></Timeline.Item>
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">&ZeroWidthSpace;Separate
+									federal lawsuits filed against two Northshore hospitals</a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.shreveporttimes.com/story/news/2015/10/07/non-ada-compliance-lands-shreveport-three-lawsuits/73521136/">
+									Non-ADA compliance lands Shreveport three lawsuits</a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.nola.com/politics/index.ssf/2016/03/new_orleans_wheelchair.html">Navigating
+									New Orleans by wheelchair is needlessly hard</a></Timeline.Item>
+
 							</Timeline>
 						</Col>
 						<Col xs={{ span: 24 }} md={{ span: 12 }} className={style.pressHide}>
 							<Timeline>
-								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.shreveporttimes.com/story/news/2015/10/07/non-ada-compliance-lands-shreveport-three-lawsuits/73521136/">
-									Non-ADA compliance lands Shreveport three lawsuits</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/politics/index.ssf/2016/03/new_orleans_wheelchair.html">Navigating
-									New Orleans by wheelchair is needlessly hard</a></Timeline.Item>
+
+
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="http://www.nola.com/politics/index.ssf/2016/01/jefferson_parish_sued_over_par.html">Jefferson
 									Parish sued over park's lack of access for disabled</a></Timeline.Item>
+
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://www.usnews.com/news/best-states/louisiana/articles/2018-01-23/deaf-students-sue-louisiana-community-college-system">Deaf
 									Students Sue Louisiana Community College System</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/traffic/index.ssf/2017/02/new_orleans_rta_court_settleme.html">Bizer &amp; DeReus
-									Prevail in Forcing the City of New Orleans to Make Its Bus Stops Compliant for
-									Wheelchair Users</a></Timeline.Item>
+
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="http://www.nola.com/traffic/index.ssf/2017/05/st_charles_avenue_streetcars_m.html"> St.
 									Charles Avenue Streetcars Must Offer Wheelchair Access, Consent Decree
@@ -256,32 +255,47 @@ const Home = () => {
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="http://www.nola.com/traffic/index.ssf/2017/10/uber_ada_lawsuit_wheelchair_ne.html"> Uber
 									slapped with ADA lawsuit from wheelchair-using New Orleanians</a></Timeline.Item>
-								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/health/index.ssf/2017/11/university_medical_center_laws.html"> Bizer &amp; DeReus
-									Secures $50,000 Settlement from University Medical Center for Failure to Provide
-									Sign Language Interpreters to a Deaf Woman</a></Timeline.Item>
+
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="http://www.wdsu.com/article/disabled-saints-fan-files-lawsuit-against-superdome/21530526"> Disabled
 									Saints fan sues Superdome </a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white"
+												  target="_blank"
+												  href="https://www.nola.com/health/index.ssf/2018/06/deaf_slidell_resident_sues_loc.html"> Deaf
+									Slidell resident sues local nursing home over inadequate interpreter
+									service</a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.wdsu.com/article/st-charles-streetcar-line-to-become-wheelchair-accessible-consent-decree-says/9590384">Consent
+									decree forces St. Charles Streetcar line to become wheelchair
+									accessible</a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.nola.com/traffic/index.ssf/2016/03/new_
+												  orleans_faces_lawsuit_over.html">New
+									Orleans faces lawsuit over inaccessible bus stops</a></Timeline.Item>
+
+								<Timeline.Item><a class="text-white" target="_blank"
+												  href="http://www.nola.com/politics/index.ssf/2016/04/new_orleans_st_charles_streetc.html">New
+									Orleans St. Charles Streetcar under fire for lack of wheelchair
+									access</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://romesentinel.com/stories/utica-settles-lawsuit-regarding-accommodations-at-city-hall-for-disabled,106531"> Utica
 									settles lawsuit regarding accommodations at City Hall for
 									disabled </a></Timeline.Item>
+
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://www.nola.com/news/business/article_56e8703c-7fa1-11ec-beed-f7cc4d8aae3e.html"> Thousands
 									of New Orleans sidewalks to get upgrades after legal deal; see timeline, work
 									plan</a></Timeline.Item>
+
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://www.thetowntalk.com/story/news/2020/07/06/covid-19-louisiana-alexandria-city-council-harry-silver-virtual-meeting/5387731002/"> Federal
 									judge: City of Alexandria must allow Councilman Silver to attend meetings virtually
 								</a></Timeline.Item>
 
-								<Timeline.Item color="purple" dot={<SmileOutlined/>}><a class="text-white"
-																						target="_blank"
-																						href="https://www.nola.com/health/index.ssf/2018/06/deaf_slidell_resident_sues_loc.html"> Deaf
-									Slidell resident sues local nursing home over inadequate interpreter
-									service</a></Timeline.Item>
 							</Timeline>
 						</Col>
 					</Row>
