@@ -223,7 +223,7 @@ const Home = () => {
 									Secures $50,000 Settlement from University Medical Center for Failure to Provide
 									Sign Language Interpreters to a Deaf Woman</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">&ZeroWidthSpace;Separate
+												  href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">Separate
 									federal lawsuits filed against two Northshore hospitals</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
