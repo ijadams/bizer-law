@@ -59,7 +59,7 @@ const Home = () => {
 						playsInline autoPlay muted loop
 						poster="https://res.cloudinary.com/ia-interactive/image/upload/v1651328306/Screen_Shot_2022-04-30_at_9.17.48_AM_d3qfqs.png">
 						<source data-src=""
-								src={onDesktop() ? 'https://res.cloudinary.com/ia-interactive/video/upload/v1651328138/res_1_cb5z8e.mp4' : ''}
+								src={onDesktop() ? 'https://res.cloudinary.com/ia-interactive/video/upload/v1652219537/street_1_t5pqz3.mp4' : ''}
 								type="video/mp4"></source>
 					</video>
 					}
@@ -86,6 +86,29 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+
+			<div className={style.vouch}>
+				<Carousel afterChange={onChange}>
+					<div>
+						<div style={contentStyle}>
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sL1IZlsupnQ"
+									title="YouTube video player" frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen></iframe>
+						</div>
+					</div>
+					<div>
+						<div style={contentStyle}>
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/R0GI6yATVV8"
+									title="YouTube video player" frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen>
+							</iframe>
+						</div>
+					</div>
+				</Carousel>
+			</div>
+
 			<div className={style.about}>
 				<div>
 					<h1>Who we Are</h1>
@@ -157,28 +180,6 @@ const Home = () => {
 						</Col>
 					</Row>
 				</div>
-			</div>
-
-			<div className={style.vouch}>
-				<Carousel afterChange={onChange}>
-					<div>
-						<div style={contentStyle}>
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sL1IZlsupnQ"
-									title="YouTube video player" frameBorder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowFullScreen></iframe>
-						</div>
-					</div>
-					<div>
-						<div style={contentStyle}>
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/R0GI6yATVV8"
-									title="YouTube video player" frameBorder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowFullScreen>
-							</iframe>
-						</div>
-					</div>
-				</Carousel>
 			</div>
 
 			<div className={style.press}>
