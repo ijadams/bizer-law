@@ -194,41 +194,41 @@ const Home = () => {
 										Prevail in Making the St. Charles Avenue Streetcar Accessible for Wheelchair
 										Users</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.timesledger.com/stories/2018/40/qclawsuit_2018_10_05_q.html">Bizer &amp; DeReus
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-qns-2018-10-queens-college-settles-federal-lawsuit-over-ada-violations-2022-05-12-12_15_50.pdf">Bizer &amp; DeReus
 									Settle ADA Lawsuit Against Queens College; Agrees to Spend at Least One Million
 									Dollars on Accessibility</a></Timeline.Item>
 								<Timeline.Item>
 									<a class="text-white" target="_blank"
-									   href="https://www.law360.com/california/articles/1458083/tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-"> Bizer
+									   href="https://ijadams.s3.amazonaws.com/bizer/screencapture-law360-california-articles-1458083-tearful-uber-worker-defends-accessibility-efforts-at-ada-trial-2022-05-12-13_40_42.pdf"> Bizer
 										& DeReus Takes ADA Case to Trial Over Uber's Failure to Provide Wheelchair
 										Accessibility </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.law360.com/articles/1456727"> Uber's 'Accessibility
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-law360-articles-1456727-2022-05-12-13_41_44.pdf"> Uber's 'Accessibility
 									Problem' Goes to Bench Trial in Calif. </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.nola.com/news/business/article_94e391ca-627c-11eb-9f37-079b712f7b75.html"> Three
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-business-article-94e391ca-627c-11eb-9f37-079b712f7b75-html-2022-05-12-13_43_23.pdf"> Three
 									Disabled Men Sue City of New Orleans for Decade-Long Wait to Fix Curb
 									Ramps </a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/traffic/index.ssf/2017/02/new_orleans_rta_court_settleme.html">Bizer &amp; DeReus
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-traffic-article-e92cca63-52c9-598b-9ee5-e271eaf664d9-html-2022-05-12-13_45_05.pdf">Bizer &amp; DeReus
 									Prevail in Forcing the City of New Orleans to Make Its Bus Stops Compliant for
 									Wheelchair Users</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.reuters.com/legal/litigation/5th-circ-revives-would-be-jurors-suit-over-inaccessible-courthouse-2021-06-16/"> 5th
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-reuters-legal-litigation-5th-circ-revives-would-be-jurors-suit-over-inaccessible-courthouse-2021-06-16-2022-05-12-13_46_24.pdf"> 5th
 									Circ. Revives Would-Be Juror’s Suit Over Inaccessible
 									Courthouse </a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/health/index.ssf/2017/11/university_medical_center_laws.html"> Bizer &amp; DeReus
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-entertainment-life-health-fitness-article-f8ef159a-8693-536f-9cd1-7b27b788e882-html-2022-05-12-13_47_22.pdf"> Bizer &amp; DeReus
 									Secures $50,000 Settlement from University Medical Center for Failure to Provide
 									Sign Language Interpreters to a Deaf Woman</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.wdsu.com/article/separate-federal-lawsuits-filed-against-two-north-shore-hospitals/9934363">Separate
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-wdsu-article-separate-federal-lawsuits-filed-against-two-north-shore-hospitals-9934363-2022-05-12-13_48_40.pdf">Separate
 									federal lawsuits filed against two Northshore hospitals</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.shreveporttimes.com/story/news/2015/10/07/non-ada-compliance-lands-shreveport-three-lawsuits/73521136/">
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-shreveporttimes-story-news-2015-10-07-non-ada-compliance-lands-shreveport-three-lawsuits-73521136-2022-05-12-13_49_28.pdf">
 									Non-ADA compliance lands Shreveport three lawsuits</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
@@ -246,35 +246,34 @@ const Home = () => {
 									Parish sued over park's lack of access for disabled</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.usnews.com/news/best-states/louisiana/articles/2018-01-23/deaf-students-sue-louisiana-community-college-system">Deaf
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-usnews-news-best-states-louisiana-articles-2018-01-23-deaf-students-sue-louisiana-community-college-system-2022-05-12-13_51_02.pdf">Deaf
 									Students Sue Louisiana Community College System</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/traffic/index.ssf/2017/05/st_charles_avenue_streetcars_m.html"> St.
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-traffic-article-a4585159-edbe-50f4-8919-8441f0691c9e-html-2022-05-12-13_51_59.pdf"> St.
 									Charles Avenue Streetcars Must Offer Wheelchair Access, Consent Decree
 									Says</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/traffic/index.ssf/2017/10/uber_ada_lawsuit_wheelchair_ne.html"> Uber
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-traffic-article-385f89a9-f47a-5d4a-af92-6c50f9706c38-html-2022-05-12-13_52_58.pdf"> Uber
 									slapped with ADA lawsuit from wheelchair-using New Orleanians</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.wdsu.com/article/disabled-saints-fan-files-lawsuit-against-superdome/21530526"> Disabled
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-wdsu-article-disabled-saints-fan-files-lawsuit-against-superdome-21530526-2022-05-12-13_53_53.pdf"> Disabled
 									Saints fan sues Superdome </a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white"
 												  target="_blank"
-												  href="https://www.nola.com/health/index.ssf/2018/06/deaf_slidell_resident_sues_loc.html"> Deaf
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-entertainment-life-health-fitness-article-69a28b70-de0d-5f1c-9dc5-732e8e36a720-html-2022-05-12-13_55_08.pdf"> Deaf
 									Slidell resident sues local nursing home over inadequate interpreter
 									service</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.wdsu.com/article/st-charles-streetcar-line-to-become-wheelchair-accessible-consent-decree-says/9590384">Consent
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-wdsu-article-st-charles-streetcar-line-to-become-wheelchair-accessible-consent-decree-says-9590384-2022-05-12-13_56_22.pdf">Consent
 									decree forces St. Charles Streetcar line to become wheelchair
 									accessible</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="http://www.nola.com/traffic/index.ssf/2016/03/new_
-												  orleans_faces_lawsuit_over.html">New
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-traffic-article-5a1506a5-c8ef-514a-a3ec-e4687ffa2413-html-2022-05-12-13_57_11.pdf">New
 									Orleans faces lawsuit over inaccessible bus stops</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
@@ -283,17 +282,17 @@ const Home = () => {
 									access</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://romesentinel.com/stories/utica-settles-lawsuit-regarding-accommodations-at-city-hall-for-disabled,106531"> Utica
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-romesentinel-stories-utica-settles-lawsuit-regarding-accommodations-at-city-hall-for-disabled-106531-2022-05-12-14_00_33.pdf"> Utica
 									settles lawsuit regarding accommodations at City Hall for
 									disabled </a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.nola.com/news/business/article_56e8703c-7fa1-11ec-beed-f7cc4d8aae3e.html"> Thousands
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-business-article-56e8703c-7fa1-11ec-beed-f7cc4d8aae3e-html-2022-05-12-14_01_32.pdf"> Thousands
 									of New Orleans sidewalks to get upgrades after legal deal; see timeline, work
 									plan</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.thetowntalk.com/story/news/2020/07/06/covid-19-louisiana-alexandria-city-council-harry-silver-virtual-meeting/5387731002/"> Federal
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-thetowntalk-story-news-2020-07-06-covid-19-louisiana-alexandria-city-council-harry-silver-virtual-meeting-5387731002-2022-05-12-14_03_13.pdf"> Federal
 									judge: City of Alexandria must allow Councilman Silver to attend meetings virtually
 								</a></Timeline.Item>
 
