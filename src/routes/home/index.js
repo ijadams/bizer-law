@@ -8,6 +8,7 @@ import { isDesktop } from 'react-device-detect';
 
 const Home = () => {
 
+	console.log('Welcome to Bizer & DeReus!');
 
 	/**
 	 * Netlify CMS's accept invite link land on home page.
