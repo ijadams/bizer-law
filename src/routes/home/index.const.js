@@ -1,8 +1,11 @@
-export const emily = {
-	message: 'Emily Westermeier - Associate Attorney',
-	description: 'Emily A. Westermeier is an associate at Bizer & DeReus and is admitted to practice law in Louisiana and Illinois. Ms. Westermeier graduated from The John Marshall Law School in 2014 and from Tulane University in 2007. Ms. Westermeier has focused her practice on serving underrepresented individuals who are often taken advantage of because of their legal or economic status. Ms. Westermeier’s experience includes certifying collective action classes of workers who were not paid in compliance with federal minimum wage and overtime laws. Ms. Westermeier joined Bizer & DeReus in 2018 and is excited to continue her work giving a voice to those who are not always heard. Ms. Westermeier is an avid runner and has completed more than a dozen half marathons and one full marathon.\n' +
-		'\n' +
-		'Emily can be reached by email at: ewest@bizerlaw.com',
+export const annika = {
+	message: 'Annika Mengisen',
+	description: 'Annika has dedicated her law career to advocacy. She graduated from Loyola Law in 2013 and began her career as a Public Defender in St. John the Baptist Parish. There she represented juveniles and adults who were unable to afford attorneys in state court as well as the 5th Circuit Court of Appeals.\n' +
+		'She continued her career as an immigration attorney at firms in New Orleans and Baton Rouge where she argued hundreds of cases in front of the Executive Office for Immigration Review and the Board of Immigration Appeals.\n' +
+		'She is thrilled to continue her advocacy work at Bizer & DeReus where she handles disability access cases, section 1983 litigation, and personal injury claims.' +
+		'In her spare time, Annika produces theater shows and designs for her own fashion label. \n' +
+		'\n'
+		// + 'Annika can be reached by email at: annika@bizerlaw.com',
 };
 
 export const garret = {
@@ -16,7 +19,7 @@ export const garret = {
 export const andy = {
 	message: 'Andrew Bizer - Founding Partner',
 	description:
-		'Andrew Bizer is the founding Partner at Bizer & DeReus and is admitted to practice law in Louisiana and New York. Mr. Bizer graduated from Brooklyn Law School in 2003 and Tulane University in 1997. Mr. Bizer has been advocating for the rights of the disabled since 2010. He prides himself on his close relationship with all of his clients. He is a member of the 9th Ward Marching Band and the Valparaiso Men’s Chorus.\n' +
+		'Andrew Bizer is the founding Partner at Bizer & DeReus and is admitted to practice law in Louisiana and New York. Andrew graduated from Brooklyn Law School in 2003 and Tulane University in 1997. He has been advocating for the rights of the disabled since 2010. He has successfully litigated hundreds of cases under the Americans with Disabilities Act. He prides himself on his close relationship with all of his clients. He is a member of the 9th Ward Marching Band and the Valparaiso Men’s Chorus.\n' +
 		'\n' +
 		'Andrew can be reached by email at: andrew@bizerlaw.com.',
 };
