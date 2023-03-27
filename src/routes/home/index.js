@@ -15,6 +15,8 @@ const Home = () => {
 	 * This redirection takes it to the right place(/admin).
 	 */
 
+	notification.config({ duration: 0 });
+
 	const openNotificationAndy = () => {
 		notification.open(andy);
 	};
@@ -196,7 +198,9 @@ const Home = () => {
 										Users</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/St.+Charles+Avenue+streetcars+must+offer+wheelchair+access%2C+consent+decree+says+_+Traffic+_+nola.com.pdf">Bizer & DeReus Lawsuit Results in Consent Decree, Forcing the City of New Orleans to Become Wheelchair Accessible</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/St.+Charles+Avenue+streetcars+must+offer+wheelchair+access%2C+consent+decree+says+_+Traffic+_+nola.com.pdf">Bizer
+									& DeReus Lawsuit Results in Consent Decree, Forcing the City of New Orleans to
+									Become Wheelchair Accessible</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Queens+College+settles+federal+lawsuit+over+ADA+violations+%E2%80%93+QNS.com.pdf">Bizer &amp; DeReus
@@ -204,16 +208,22 @@ const Home = () => {
 									Dollars on Accessibility</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/Lafreniere+Park+in+line+for+%243.2+million+in+work+to+improve+handicap+access+_+News+_+nola.com.pdf">Bizer & DeReus Settle ADA Lawsuit Against Jefferson Parish; Agrees to Spend $3.2 Million on Accessibility</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/Lafreniere+Park+in+line+for+%243.2+million+in+work+to+improve+handicap+access+_+News+_+nola.com.pdf">Bizer
+									& DeReus Settle ADA Lawsuit Against Jefferson Parish; Agrees to Spend $3.2 Million
+									on Accessibility</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Uber's+'Accessibility+Problem'+Goes+To+Bench+Trial+In+Calif.+-+Law360.pdf"> Bizer & DeReus take Uber to Trial on Behalf of Two Wheelchair Users</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Uber's+'Accessibility+Problem'+Goes+To+Bench+Trial+In+Calif.+-+Law360.pdf"> Bizer
+									& DeReus take Uber to Trial on Behalf of Two Wheelchair Users</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Three+disabled+men+sue+City+of+New+Orleans+for+decade-long+wait+to+fix+curb+ramps+_+Business+News+_+nola.com.pdf"> Bizer & DeReus Sue New Orleans for Decades Long Wait to Fix Curb Ramps
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Three+disabled+men+sue+City+of+New+Orleans+for+decade-long+wait+to+fix+curb+ramps+_+Business+News+_+nola.com.pdf"> Bizer
+									& DeReus Sue New Orleans for Decades Long Wait to Fix Curb Ramps
 									Ramps </a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Thousands+of+New+Orleans+sidewalks+to+get+upgrades+after+legal+deal%3B+see+timeline%2C+work+plan+_+Business+News+_+nola.com.pdf"> Bizer & DeReus Lawsuit Against the City of New Orleans Over Lack of Curb Ramps Results in Sweeping Upgrades</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Thousands+of+New+Orleans+sidewalks+to+get+upgrades+after+legal+deal%3B+see+timeline%2C+work+plan+_+Business+News+_+nola.com.pdf"> Bizer
+									& DeReus Lawsuit Against the City of New Orleans Over Lack of Curb Ramps Results in
+									Sweeping Upgrades</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://ijadams.s3.amazonaws.com/bizer/prints/New+Orleans+reaches+settlement+in+case+that+says+94+percent+of+bus+stops+not+ADA-compliant+_+Traffic+_+nola.com.pdf">Bizer &amp; DeReus
@@ -221,18 +231,23 @@ const Home = () => {
 									Wheelchair Users</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/5th+Circ.+revives+would-be+juror%E2%80%99s+suit+over+inaccessible+courthouse+_+Reuters.pdf"> Bizer & DeReus win Appeal at the Fifth Circuit Court of Appeals Regarding Inaccessible Courthouse in Jackson, Mississippi </a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/5th+Circ.+revives+would-be+juror%E2%80%99s+suit+over+inaccessible+courthouse+_+Reuters.pdf"> Bizer
+									& DeReus win Appeal at the Fifth Circuit Court of Appeals Regarding Inaccessible
+									Courthouse in Jackson, Mississippi </a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://ijadams.s3.amazonaws.com/bizer/prints/University+Medical+Center+to+settle+deaf+discrimination+lawsuit+by+paying+%2450%2C000+_+Health_Fitness+_+nola.com.pdf"> Bizer &amp; DeReus
 									Secures $50,000 Settlement from University Medical Center for Failure to Provide
 									Sign Language Interpreters to a Deaf Woman</a></Timeline.Item>
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/_Separate+federal+lawsuits+filed+against+two+Northshore+hospitals.pdf">Bizer & DeReus Sue Northshore Hospitals for Failure to Provide Sign Language Interpreters</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/_Separate+federal+lawsuits+filed+against+two+Northshore+hospitals.pdf">Bizer
+									& DeReus Sue Northshore Hospitals for Failure to Provide Sign Language
+									Interpreters</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Non-ADA+compliance+lands+Shreveport+three+lawsuits.pdf">
-									Bizer & DeReus Files Three Lawsuits Against the City of Shreveport for ADA Violations</a></Timeline.Item>
+									Bizer & DeReus Files Three Lawsuits Against the City of Shreveport for ADA
+									Violations</a></Timeline.Item>
 
 							</Timeline>
 						</Col>
@@ -240,27 +255,41 @@ const Home = () => {
 							<Timeline>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Deaf+Students+Sue+Louisiana+Community+College+System+_+Louisiana+News+_+US+News.pdf">Bizer & DeReus Sue Delgado Community College on Behalf of Deaf Students Alleging Discrimination</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Deaf+Students+Sue+Louisiana+Community+College+System+_+Louisiana+News+_+US+News.pdf">Bizer
+									& DeReus Sue Delgado Community College on Behalf of Deaf Students Alleging
+									Discrimination</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Uber+slapped+with+ADA+lawsuit+from+wheelchair-using+New+Orleanians+_+Traffic+_+nola.com.pdf"> Bizer & DeReus Sues Uber for Failing to Provide Wheelchair Accessible Vehicles</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Uber+slapped+with+ADA+lawsuit+from+wheelchair-using+New+Orleanians+_+Traffic+_+nola.com.pdf"> Bizer
+									& DeReus Sues Uber for Failing to Provide Wheelchair Accessible
+									Vehicles</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://www.wdsu.com/article/disabled-saints-fan-files-lawsuit-against-superdome/21530526">Bizer & DeReus Sue the Superdome on Behalf of Wheelchair User who Cannot See the Game Over the Heads of Spectators </a></Timeline.Item>
+												  href="https://www.wdsu.com/article/disabled-saints-fan-files-lawsuit-against-superdome/21530526">Bizer
+									& DeReus Sue the Superdome on Behalf of Wheelchair User who Cannot See the Game Over
+									the Heads of Spectators </a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white"
 												  target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Deaf+Slidell+resident+sues+local+nursing+home+over+inadequate+interpreter+service+_+Health_Fitness+_+nola.com.pdf"> Bizer & DeReus Sue Nursing Home for Failing to Provide Sign Language Interpreters to Deaf Woman for Fourteen Days</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Deaf+Slidell+resident+sues+local+nursing+home+over+inadequate+interpreter+service+_+Health_Fitness+_+nola.com.pdf"> Bizer
+									& DeReus Sue Nursing Home for Failing to Provide Sign Language Interpreters to Deaf
+									Woman for Fourteen Days</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-traffic-article-5a1506a5-c8ef-514a-a3ec-e4687ffa2413-html-2022-05-12-13_57_11.pdf">Bizer & DeReus Sue the City of New Orleans Regarding Inaccessible Bus Stops</a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/screencapture-nola-news-traffic-article-5a1506a5-c8ef-514a-a3ec-e4687ffa2413-html-2022-05-12-13_57_11.pdf">Bizer
+									& DeReus Sue the City of New Orleans Regarding Inaccessible Bus
+									Stops</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Utica+settles+lawsuit+regarding+accommodations+at+City+Hall+for+disabled+_+Daily+Sentinel.pdf"> Bizer & DeReus Lawsuit Forces Utica to Make its City Hall Accessible for Wheelchair Users </a></Timeline.Item>
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/Utica+settles+lawsuit+regarding+accommodations+at+City+Hall+for+disabled+_+Daily+Sentinel.pdf"> Bizer
+									& DeReus Lawsuit Forces Utica to Make its City Hall Accessible for Wheelchair
+									Users </a></Timeline.Item>
 
 
 								<Timeline.Item><a class="text-white" target="_blank"
-												  href="https://ijadams.s3.amazonaws.com/bizer/prints/COVID+19_+Louisiana+city+must+allow+councilman+virtual+meetings.pdf"> Bizer & DeReus Win Lawsuit to Force Alexandria to Allow 98 Year Old Councilman to Attend City Council Meetings Remotely
+												  href="https://ijadams.s3.amazonaws.com/bizer/prints/COVID+19_+Louisiana+city+must+allow+councilman+virtual+meetings.pdf"> Bizer
+									& DeReus Win Lawsuit to Force Alexandria to Allow 98 Year Old Councilman to Attend
+									City Council Meetings Remotely
 								</a></Timeline.Item>
 
 							</Timeline>
