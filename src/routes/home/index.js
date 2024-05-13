@@ -2,7 +2,7 @@ import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
 import style from './style';
 import 'antd/dist/antd.css';
-import { Row, Col, Button, Avatar, notification, Carousel, Timeline } from 'antd';
+import { Avatar, Button, Carousel, Col, notification, Row, Timeline } from 'antd';
 import { andy, garret, eva } from './index.const';
 import { isDesktop } from 'react-device-detect';
 
@@ -196,6 +196,12 @@ const Home = () => {
 									   href="https://www.youtube.com/watch?v=kuf-qGZ7a90"> Bizer &amp; DeReus
 										Prevail in Making the St. Charles Avenue Streetcar Accessible for Wheelchair
 										Users</a></Timeline.Item>
+
+								<Timeline.Item>
+									<a class="text-white" target="_blank"
+									   href="https://news.yahoo.com/arrested-making-joke-facebook-jury-212045619.html?guccounter=1">Bizer
+										& DeReus Secure $205,000 Jury Verdict Against the Rapides Parish Sheriff’s
+										Office for Wrongfully Arresting Man for Joke on Facebook</a></Timeline.Item>
 
 								<Timeline.Item><a class="text-white" target="_blank"
 												  href="https://ijadams.s3.amazonaws.com/bizer/prints/St.+Charles+Avenue+streetcars+must+offer+wheelchair+access%2C+consent+decree+says+_+Traffic+_+nola.com.pdf">Bizer
