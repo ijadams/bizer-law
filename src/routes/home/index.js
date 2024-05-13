@@ -176,7 +176,7 @@ const Home = () => {
 							<a href="javascript:void;" onClick={openNotificationEva}>
 								<Avatar
 									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
-									src="https://res.cloudinary.com/ia-interactive/image/upload/v1715633208/EvaKalikoff_035R_1_vbhj4l.jpg"
+									src="https://res.cloudinary.com/ia-interactive/image/upload/v1715633996/eva-sq_td2bmw.jpg"
 								/>
 								<h3>EVA KALIKOFF</h3>
 							</a>
