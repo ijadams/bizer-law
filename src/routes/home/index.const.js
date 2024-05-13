@@ -1,11 +1,8 @@
-export const annika = {
-	message: 'Annika Mengisen - Associate',
-	description: 'Annika has dedicated her law career to advocacy. She graduated from Loyola Law in 2013 and began her career as a Public Defender in St. John the Baptist Parish. There she represented juveniles and adults who were unable to afford attorneys in state court as well as the 5th Circuit Court of Appeals.\n' +
-		'She continued her career as an immigration attorney at firms in New Orleans and Baton Rouge where she argued hundreds of cases in front of the Executive Office for Immigration Review and the Board of Immigration Appeals.\n' +
-		'She is thrilled to continue her advocacy work at Bizer & DeReus where she handles disability access cases, section 1983 litigation, and personal injury claims.' +
-		'In her spare time, Annika produces theater shows and designs for her own fashion label. \n' +
+export const eva = {
+	message: 'Eva Kalikoff - Associate',
+	description:  `Eva has dedicated her legal practice to advocating for Louisiana’s most vulnerable residents. She graduated from Barnard College in 2016 and Tulane Law School in 2021. She began her career in legal aid as a staff attorney at Southeast Louisiana Legal Services where she represented survivors of intimate partner violence in civil cases in Baton Rouge and surrounding parishes. She then worked at Louisiana Fair Housing Action Center representing tenants facing eviction in Orleans Parish. She is excited to bring her passion for social justice and civil rights to Bizer & DeReus. In her free time she enjoys walking her dog Joni along Bayou St. John and cooking meals for her friends.` +
 		'\n'
-		+ 'Annika can be reached by email at: annika@bizerlaw.com'
+		+ 'Eva can be reached by email at: eva@bizerlaw.com'
 };
 
 export const garret = {

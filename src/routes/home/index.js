@@ -1,8 +1,9 @@
+import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
 import style from './style';
 import 'antd/dist/antd.css';
 import { Avatar, Button, Carousel, Col, notification, Row, Timeline } from 'antd';
-import { andy, annika, garret } from './index.const';
+import { andy, garret, eva } from './index.const';
 import { isDesktop } from 'react-device-detect';
 
 const Home = () => {
@@ -24,8 +25,8 @@ const Home = () => {
 		notification.open(garret);
 	};
 
-	const openNotificationAnnika = () => {
-		notification.open(annika);
+	const openNotificationEva = () => {
+		notification.open(eva);
 	};
 
 	function onChange(a, b, c) {
@@ -172,12 +173,12 @@ const Home = () => {
 							</a>
 						</Col>
 						<Col xs={{ span: 24 }} md={{ span: 8 }}>
-							<a href="javascript:void;" onClick={openNotificationAnnika}>
+							<a href="javascript:void;" onClick={openNotificationEva}>
 								<Avatar
 									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
-									src="https://res.cloudinary.com/ia-interactive/image/upload/v1679839400/AnnikaNengisen-5R_s9gxuu.jpg"
+									src="https://res.cloudinary.com/ia-interactive/image/upload/v1715633208/EvaKalikoff_035R_1_vbhj4l.jpg"
 								/>
-								<h3>ANNIKA MENGISEN</h3>
+								<h3>EVA KALIKOFF</h3>
 							</a>
 						</Col>
 					</Row>
