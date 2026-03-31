@@ -8,7 +8,7 @@ const Footer = () => (
 		<div>
 			<div>
 				<div>
-					<h3>Bizer & DeReus</h3>
+					<h3>The Bizer Law Firm</h3>
 					<p>3319 St. Claude Avenue
 					New Orleans, LA 70117</p>
 					<a href="tel:+5046199999">p: 504.619.9999</a>

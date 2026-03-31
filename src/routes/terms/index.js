@@ -14,7 +14,7 @@ const terms = (props) => {
 						<div>FREE BACKGROUND INFORMATION AVAILABLE UPON REQUEST.&nbsp;<span style="color: #000000;"><br></br></span></div>
 						<div><span style="color: #000000;">&nbsp;</span></div>
 						<div>
-							<p><span style="color: #000000;"><em>No Attorney-Client Relationship Created by Use of this Website</em>. Neither your receipt of information from this website, nor your use of this website to contact&nbsp;Bizer &amp; DeReus&nbsp;(hereinafter “the Firm”) or one of its lawyers creates an attorney-client relationship between you and the Firm. You will become a client of the Firm only if and when you sign and engagement agreement setting forth the scope of the Firm’s engagement, the fee arrangement and other relevant matters. As a matter of policy, the Firm does not accept a new client without first investigating for possible conflicts of interests and obtaining a signed engagement letter. (The Firm may, for example, already represent another party involved in your matter.)</span>
+							<p><span style="color: #000000;"><em>No Attorney-Client Relationship Created by Use of this Website</em>. Neither your receipt of information from this website, nor your use of this website to contact&nbsp;The Bizer Law Firm&nbsp;(hereinafter “the Firm”) or one of its lawyers creates an attorney-client relationship between you and the Firm. You will become a client of the Firm only if and when you sign and engagement agreement setting forth the scope of the Firm’s engagement, the fee arrangement and other relevant matters. As a matter of policy, the Firm does not accept a new client without first investigating for possible conflicts of interests and obtaining a signed engagement letter. (The Firm may, for example, already represent another party involved in your matter.)</span>
 							</p>
 							<p><span style="color: #000000;"><em>No Confidentiality</em>. You may not use this website to provide confidential information about a legal matter of yours to the Firm. Your use of this website does not make you a client of the firm. If you have confidential information that you would like to give to any lawyer at the Firm, please communicate with one if the Firm’s lawyers by telephone.</span>
 							</p>
@@ -46,8 +46,7 @@ const terms = (props) => {
 								websites.</p>
 							<p><span style="color: #000000;"><em>Authorized Practice of Law</em>. The jurisdictions in which each of the Firm’s lawyers are licensed to practice are noted on each lawyer’s biography on this website. The ability of any Firm lawyer to engage in any activities for a client outside of that lawyer’s state(s) of licensure is subject to state statutes, professional standards and court rules.&nbsp;</span>
 							</p>
-							<p><span style="color: #000000;"><em>Responsible Lawyer</em>. The Firm lawyers responsible for the content of this website are&nbsp;
-								<span className="il">Garret</span> S. DeReus, Andrew Bizer, and Jacqui Hammack.</span>
+							<p><span style="color: #000000;"><em>Responsible Lawyer</em>. The Firm lawyer responsible for the content of this website is&nbsp;Andrew Bizer.</span>
 							</p>
 							<p><span style="color: #000000;"><em>Bona Fide Office</em>. In compliance with&nbsp;<a
 								href="https://lalegalethics.org/louisiana-rules-of-professional-conduct/article-7-information-about-legal-services/rule-7-6-political-contributions-to-obtain-government-legal-engagements-or-appointments-by-judges-reserved/"
