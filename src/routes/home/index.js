@@ -2,32 +2,18 @@ import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
 import style from './style';
 import 'antd/dist/antd.css';
-import { Avatar, Button, Carousel, Col, notification, Row, Timeline } from 'antd';
-import { andy, garret, eva } from './index.const';
+import { Avatar, Button, Carousel, Col, Row, Timeline } from 'antd';
+import { andyBio } from './index.const';
 import { isDesktop } from 'react-device-detect';
 
 const Home = () => {
 
-	console.log('Welcome to Bizer & DeReus!');
+	console.log('Welcome to The Bizer Law Firm!');
 
 	/**
 	 * Netlify CMS's accept invite link land on home page.
 	 * This redirection takes it to the right place(/admin).
 	 */
-
-	notification.config({ duration: 0 });
-
-	const openNotificationAndy = () => {
-		notification.open(andy);
-	};
-
-	const openNotificationGarret = () => {
-		notification.open(garret);
-	};
-
-	const openNotificationEva = () => {
-		notification.open(eva);
-	};
 
 	function onChange(a, b, c) {
 		console.log(a, b, c);
@@ -74,7 +60,7 @@ const Home = () => {
 					<div>
 						<h1>A <span style="font-weight: 700; color: #0C6DB7;">Civil Rights</span> Law Firm</h1>
 						<hr></hr>
-						<h2>Bizer & DeReus <span style="font-weight: 700; color: #07538D">fights</span> for the <span
+						<h2>The Bizer Law Firm <span style="font-weight: 700; color: #07538D">fights</span> for the <span
 							style="font-weight: 700; color: #07538D;">rights of all Americans</span>. We concentrate on
 							increasing access
 							for <span
@@ -116,11 +102,11 @@ const Home = () => {
 				<div>
 					<h1>Who we Are</h1>
 					<hr></hr>
-					<p>Bizer & DeReus fights for the rights of all Americans. We concentrate on increasing access for
-						persons with disabilities and minority groups through litigation. We are also experienced in
-						handling personal injury and insurance cases. Since founding the firm in New Orleans in 2008, we
-						have developed a national presence with local partnerships in several states. We provide, free
-						of charge, American Sign Language Interpreters for ALL our Deaf & Hard of Hearing Clients.</p>
+				<p>The Bizer Law Firm fights for the rights of all Americans. We concentrate on increasing access for
+					persons with disabilities and minority groups through litigation. We are also experienced in
+					handling personal injury and insurance cases. Since founding the firm in New Orleans in 2008, we
+					have developed a national presence with local partnerships in several states. We provide, free
+					of charge, American Sign Language Interpreters for ALL our Deaf & Hard of Hearing Clients.</p>
 				</div>
 			</div>
 			<div className={style.services}>
@@ -131,63 +117,39 @@ const Home = () => {
 								src="https://res.cloudinary.com/ia-interactive/image/upload/v1651080236/noun-civil-rights-4339810_h7f7gv.png" />
 							<h3>CIVIL RIGHTS</h3>
 							<hr></hr>
-							<p>Bizer & DeReus is one of a small number of Louisiana law firms that concentrate on
-								enforcing the rights of individuals with disabilities under the Americans with
-								Disabilities Act of 1990 (ADA), the Rehabilitation Act of 1973, and the Fair Housing
-								Act. Bizer & DeReus is committed to ensuring that individuals with disabilities receive
-								equal access to public and private facilities and services.</p>
+						<p>The Bizer Law Firm is one of a small number of Louisiana law firms that concentrate on
+							enforcing the rights of individuals with disabilities under the Americans with
+							Disabilities Act of 1990 (ADA), the Rehabilitation Act of 1973, and the Fair Housing
+							Act. The Bizer Law Firm is committed to ensuring that individuals with disabilities receive
+							equal access to public and private facilities and services.</p>
 						</Col>
 						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<img
 								src="https://res.cloudinary.com/ia-interactive/image/upload/v1651324929/noun-injury-231864_zvx9fd.png" />
 							<h3>PERSONAL INJURY</h3>
 							<hr></hr>
-							<p>At Bizer & DeReus, we have extensive experience litigating personal injury cases in state
-								and federal court. We handle personal injury cases involving motor vehicle collision,
-								trucking accidents, premises liability, and others.</p>
+						<p>At The Bizer Law Firm, we have extensive experience litigating personal injury cases in state
+							and federal court. We handle personal injury cases involving motor vehicle collision,
+							trucking accidents, premises liability, and others.</p>
 						</Col>
 					</Row>
 				</div>
 			</div>
 			<div className={style.attorneys}>
 				<div>
-					<h1>our attorneys</h1>
+					<h1>Andrew Bizer</h1>
 					<hr></hr>
-					<Row gutter={[16, 16]}>
-						<Col xs={{ span: 24 }} md={{ span: 8 }}>
-							<a href="javascript:void;" onClick={openNotificationAndy}>
-								<Avatar
-									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
-									src="https://res.cloudinary.com/ia-interactive/image/upload/v1651086619/andy_pgyvh2.jpg"
-								/>
-								<h3>ANDREW D. BIZER</h3>
-							</a>
-						</Col>
-						<Col xs={{ span: 24 }} md={{ span: 8 }}>
-							<a href="javascript:void;" onClick={openNotificationGarret}>
-								<Avatar
-									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
-									src="https://res.cloudinary.com/ia-interactive/image/upload/v1651086618/garret_ogd1og.jpg"
-								/>
-								<h3>GARRET S. DEREUS</h3>
-							</a>
-						</Col>
-						<Col xs={{ span: 24 }} md={{ span: 8 }}>
-							<a href="javascript:void;" onClick={openNotificationEva}>
-								<Avatar
-									size={{ xs: 50, sm: 50, md: 100, lg: 150, xl: 150, xxl: 150 }}
-									src="https://res.cloudinary.com/ia-interactive/image/upload/v1751995301/eva-25_nikjfy.jpg"
-								/>
-								<h3>EVA M. KALIKOFF</h3>
-							</a>
-						</Col>
-					</Row>
+					<Avatar
+						size={{ xs: 150, sm: 150, md: 200, lg: 250, xl: 250, xxl: 250 }}
+						src="https://res.cloudinary.com/ia-interactive/image/upload/v1651086619/andy_pgyvh2.jpg"
+					/>
+					<p style="max-width: 700px; margin: 2rem auto 0; text-align: center; line-height: 1.8;">{andyBio}</p>
 				</div>
 			</div>
 
 			<div className={style.press}>
 				<div>
-					<h1>Press Coverage about Bizer & DeReus</h1>
+					<h1>Press Coverage about The Bizer Law Firm</h1>
 					<Row gutter={[16, 16]}>
 						<Col xs={{ span: 24 }} md={{ span: 12 }}>
 							<Timeline>

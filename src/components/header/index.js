@@ -18,9 +18,8 @@ const Header = () => {
 
 	return (
 		<header className={style.header}>
-			<Link href="/"><h1><span style="font-weight: 500; letter-spacing: 2px;">BIZER</span> <span
-				style="font-weight: 100;">&</span> <span style="letter-spacing: 1px; font-weight: 400;">DeREUS</span>
-			</h1></Link>
+		<Link href="/"><h1><span style="font-weight: 500; letter-spacing: 2px;">THE BIZER LAW FIRM</span>
+		</h1></Link>
 			<nav>
 				<Link activeClassName={style.active} href="/contact"><MailOutlined/><span
 					style="margin-right: 3px;"></span> Contact</Link>
@@ -30,7 +29,7 @@ const Header = () => {
 			<div className={style.mobile}>
 				<Button onClick={showDrawer} ghost="true" icon={<MenuOutlined/>}/>
 			</div>
-			<Drawer title="Bizer & DeReus" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
+			<Drawer title="The Bizer Law Firm" placement="right" onClose={onClose} visible={visible} className={style.drawer}>
 				<ul>
 					<li><Link onClick={onClose} activeClassName={style.active} href="/contact"><MailOutlined/> &nbsp; Contact</Link></li>
 					<li>
